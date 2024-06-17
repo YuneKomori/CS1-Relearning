@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>07-2-assign1</title>
+</head>
+
+<body>
+    <h1>時間割アンケート</h1>
+    <h3>時間割</h3>
+    <p>INIAD1年次の必修科目の時間割の例です。</p>
+
+    <table>
+        <tr>
+            <th></th>
+            <th>月</th>
+            <th>火</th>
+            <th>水</th>
+            <th>木</th>
+            <th>金</th>
+        </tr>
+        <tr>
+            <th>1限</th>
+            <td>リスニング・スピーキング演習</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <th>2限</th>
+            <td></td>
+            <td>リーディング・ライティング演習</td>
+            <td>情報連携学概論</td>
+            <td>リスニング・スピーキング演習</td>
+            <td></td>
+        </tr>
+        <tr>
+            <th>3限</th>
+            <td>コンピュータ・サイエンス概論</td>
+            <td></td>
+            <td></td>
+            <td>コンピュータ・サイエンス概論</td>
+            <td>情報連携基礎演習</td>
+        </tr>
+        <tr>
+            <th>4限</th>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <th>5限</th>
+            <td>情報連携実習</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+    <hr>
+    <h3>アンケート</h3>
+    <form>
+        <p>
+            <label for="id_name">氏名:</label>
+            <input id="id_name" type="text">
+        </p>
+        <p>
+            <label for="id_email">email:</label>
+            <input id="id_email" type="email">
+        </p>
+        <p>
+            <textarea rows="10" cols="50">ここに意見を書いてください。</textarea>
+        </p>
+        <p>
+            <input id="id_checkbox1" type="checkbox">
+            <label for="id_checkbox1">内容を確認しました</label>
+        </p>
+        <p>
+            <input type="submit" value="提出">
+        </p>
+        <p>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </p>
+    </form>
+</body>
+
+</html>
